@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="relative h-screen w-screen">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container absolute px-12"></div>
+                    <img src="img/SliderdImage.png" alt="pic">
+                </div>
+                <div class="swiper-slide">
+                    <div class="container absolute px-12"></div>
+                    <img src="img/images.jpg" alt="pic">
+                </div>
+            </div>
+
+            <div class="container mx-auto absolute inset-0">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <div class="absolute bottom-0 inset-x-0 z-[5]">
+                <svg class="block mx-auto" fill="#fff" xmlns="http://www.w3.org/2000/svg" width="920.859"
+                    height="31.741" viewBox="0 0 920.859 31.741">
+                    <path
+                        d="M4607.954,6655.614h0Zm-918.952,0h0Zm678.47,0H3690.908c160.076-.122,133.282-31.74,240.482-31.74h436.08c107.2,0,80.405,31.619,240.482,31.74Z"
+                        transform="translate(-3689.001 -6623.874)" />
+                </svg>
+
+                <div class="bg-white block h-4 w-full -mt-1"></div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
