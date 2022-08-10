@@ -3,11 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-<<<<<<< HEAD
-      fontFamily: {
-        'sans': ['YekanBakh', 'Helvetica', 'Arial', 'sans-serif']
-      }
-=======
       container: {
         padding: "15rem",
       },
@@ -24,7 +19,6 @@ module.exports = {
       width: {
         logo: "10rem",
       },
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
     },
     fontSize: {
       title: "3rem",
