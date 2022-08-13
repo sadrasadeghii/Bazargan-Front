@@ -26,7 +26,8 @@ module.exports = {
       title: "3rem",
       caption: "2rem",
       button: "1.625rem",
-      sm:"0.875rem"
+      sm:"0.875rem",
+      xl : "1.25rem"
     },
 
     plugins: [],
