@@ -29,7 +29,11 @@ module.exports = {
       sm:"0.875rem",
       xl : "1.25rem"
     },
-
-    plugins: [],
+    display:{
+      webkitBox : ""
+    },
+    plugins: [
+      require('@tailwindcss/line-clamp'),
+    ],
   },
 };
