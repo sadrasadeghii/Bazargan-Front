@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: YekanBakh, Helvetica, Arial, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -618,13 +618,10 @@ video {
   bottom: 0px;
 }
 
-<<<<<<< HEAD
 .right-0 {
   right: 0px;
 }
 
-=======
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
 .z-\[5\] {
   z-index: 5;
 }
@@ -634,35 +631,37 @@ video {
   margin-right: auto;
 }
 
-<<<<<<< HEAD
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem;
-=======
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
 }
 
 .-mt-1 {
   margin-top: -0.25rem;
 }
 
-.mt-54px {
-  margin-top: 3.375rem;
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-54px {
+  margin-top: 3.375rem;
 }
 
 .ml-4 {
@@ -689,41 +688,52 @@ video {
   height: 1rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .w-screen {
   width: 100vw;
-=======
+}
+
 .w-logo {
   width: 10rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.basis-2\/5 {
+  flex-basis: 40%;
+}
+
+.basis-3\/5 {
+  flex-basis: 60%;
+}
+
+.basis-1\/5 {
+  flex-basis: 20%;
+}
+
+.basis-3\/4 {
+  flex-basis: 75%;
 }
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-<<<<<<< HEAD
-.overflow-hidden {
-  overflow: hidden;
-=======
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -735,18 +745,34 @@ video {
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .border-2 {
   border-width: 2px;
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(60 9 108 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
@@ -763,17 +789,55 @@ video {
   --tw-gradient-to: transparent;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-<<<<<<< HEAD
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-right {
   text-align: right;
-=======
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .font-YekanBakh {
   font-family: YekanBakh, Tahoma;
+}
+
+.text-\[37px\] {
+  font-size: 37px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-button {
+  font-size: 1.625rem;
 }
 
 .text-title {
@@ -784,12 +848,35 @@ video {
   font-size: 2rem;
 }
 
-.text-button {
-  font-size: 1.625rem;
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#02010A\] {
+  --tw-text-opacity: 1;
+  color: rgb(2 1 10 / var(--tw-text-opacity));
+}
+
+.text-secoundBlack {
+  --tw-text-opacity: 1;
+  color: rgb(2 1 10 / var(--tw-text-opacity));
 }
 
 .text-purple {
@@ -802,37 +889,52 @@ video {
   color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
-html,
-body {
-  position: relative;
-  height: 100%;
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
+@font-face {
+  font-family: YekanBakh;
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  src: url("fonts/Yekan Bakh EN 01 Hairline.eot");
+
+  src: url("fonts/Yekan Bakh EN 01 Hairline.woff") format("woff"), url("/fonts/Yekan Bakh EN 01 Hairline.ttf") format("truetype")
 }
 
-.font-sans {
-  font-family: YekanBakh, Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: YekanBakh;
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  src: url("fonts/Yekan Bakh EN 02 Thin.eot");
+
+  src: url("fonts/Yekan Bakh EN 02 Thin.woff") format("woff"), url("/fonts/Yekan Bakh EN 02 Thin.ttf") format("truetype")
 }
 
-.text-\[37px\] {
-  font-size: 37px;
+@font-face {
+  font-family: YekanBakh;
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: url("fonts/Yekan Bakh EN 03 Light.eot");
+
+  src: url("fonts/Yekan Bakh EN 03 Light.woff") format("woff"), url("/fonts/Yekan Bakh EN 03 Light.ttf") format("truetype")
 }
 
-.text-\[22px\] {
-  font-size: 22px;
-}
+@font-face {
+  font-family: YekanBakh;
 
-.font-medium {
-  font-weight: 500;
-}
+  font-style: normal;
 
-.font-normal {
   font-weight: 400;
-}
 
-<<<<<<< HEAD
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  src: url("fonts/Yekan Bakh EN 04 Regular.eot");
+
+  src: url("fonts/Yekan Bakh EN 04 Regular.woff") format("woff"), url("/fonts/Yekan Bakh EN 04 Regular.ttf") format("truetype")
 }
 
 @font-face {
@@ -842,25 +944,9 @@ body {
 
   font-weight: 500;
 
-  src: local('Yekan-Bakh'), url("fonts/YekanBakh-Medium.eot");
+  src: url("fonts/Yekan Bakh EN 05 Medium.eot");
 
-  src: url("fonts/YekanBakh-Medium.woff") format("woff"),
-        url('fonts/YekanBakh-Medium.woff2') format('woff2'),
-        url('fonts/YekanBakh-Medium.eot?#iefix') format('embedded-opentype');
-}
-
-@font-face {
-  font-family: YekanBakh;
-
-  font-style: normal;
-
-  font-weight: 600;
-
-  src: local('Yekan-Bakh'), url("fonts/YekanBakh-Bold.eot");
-
-  src: url("fonts/YekanBakh-Bold.woff") format("woff"),
-        url('fonts/YekanBakh-Bold.woff2') format('woff2'),
-        url('fonts/YekanBakh-Bold.eot?#iefix') format('embedded-opentype');
+  src: url("fonts/Yekan Bakh EN 05 Medium.woff") format("woff"), url("/fonts/Yekan Bakh EN 05 Medium.ttf") format("truetype")
 }
 
 @font-face {
@@ -870,11 +956,21 @@ body {
 
   font-weight: 700;
 
-  src: local('Yekan-Bakh'), url("fonts/YekanBakh-Heavy.eot");
+  src: url("fonts/Yekan Bakh EN 06 Bold.eot");
 
-  src: url("fonts/YekanBakh-Heavy.woff") format("woff"),
-        url('fonts/YekanBakh-Heavy.woff2') format('woff2'),
-        url('fonts/YekanBakh-Heavy.eot?#iefix') format('embedded-opentype');
+  src: url("fonts/Yekan Bakh EN 06 Bold.woff") format("woff"), url("/fonts/Yekan Bakh EN 06 Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: YekanBakh;
+
+  font-style: normal;
+
+  font-weight: 800;
+
+  src: url("fonts/Yekan Bakh EN 07 Heavy.eot");
+
+  src: url("fonts/Yekan Bakh EN 07 Heavy.woff") format("woff"), url("/fonts/Yekan Bakh EN 07 Heavy.ttf") format("truetype")
 }
 
 @font-face {
@@ -882,13 +978,11 @@ body {
 
   font-style: normal;
 
-  font-weight: 900;
+  font-weight: bold;
 
-  src: local('Yekan-Bakh'), url("fonts/YekanBakh-Fat.eot");
+  src: url("fonts/Yekan Bakh EN 07 Heavy.eot");
 
-  src: url("fonts/YekanBakh-Fat.woff") format("woff"),
-        url('fonts/YekanBakh-Fat.woff2') format('woff2'),
-        url('fonts/YekanBakh-Fat.eot?#iefix') format('embedded-opentype');
+  src: url("fonts/Yekan Bakh EN 07 Heavy.woff") format("woff"), url("/fonts/Yekan Bakh EN 07 Heavy.ttf") format("truetype")
 }
 
 /* Swiper Styles Start */
@@ -916,12 +1010,45 @@ body {
 }
 
 /* Swiper Styles End */
-=======
-.swiper-pagination-bullet {
-  width: 25px;
-  border-radius: 0;
-  height: 5px;
-  background-color: red;
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:-left-0\.5::before {
+  content: var(--tw-content);
+  left: -0.125rem;
+}
+
+.before\:-left-0::before {
+  content: var(--tw-content);
+  left: -0px;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.before\:bg-\[url\(\'\.\.\/src\/img\/on-product\.svg\'\)\]::before {
+  content: var(--tw-content);
+  background-image: url('../src/img/on-product.svg');
+}
+
+.before\:bg-left-top::before {
+  content: var(--tw-content);
+  background-position: left top;
+}
+
+.before\:bg-no-repeat::before {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -961,4 +1088,3 @@ body {
     }
   }
 }
->>>>>>> 6d90642f5aed67c7778a935de1314314ed579374
